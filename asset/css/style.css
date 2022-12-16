@@ -1,0 +1,65 @@
+/*section slider*/
+h2 {
+    text-transform: uppercase;
+    background-color: rgba(245, 245, 245, 0.526);
+    border-radius: 5px;
+    color: #ae451e;
+}
+
+#store {
+    margin-top: 40px;
+}
+
+
+/*section catégories*/
+
+#categories {
+    margin-top: 40px;
+}
+
+.left {
+    background: url(../img/kid.jpeg);
+    height: 450px;
+    width: 100%;
+}
+
+.right {
+    background: url(../img/99.jpg);
+    height: 450px;
+    max-width: 100%;
+}
+
+.left:hover {
+    transform: scale(1.1);
+    transition: all 1.4s ease;
+}
+
+.right:hover {
+    transform: scale(1.1);
+    transition: all 1.4s ease;
+}
+
+/*section stores*/
+#stores {
+    margin-top: 60px;
+}
+
+.card {
+    transition: all 1.5s ease
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background-color: #cc3f0c;
+
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: #cc3f0c !important;
+}
+
+.back {
+    background-image: url(../img/legooo.jpg);
+    background-size: cover;
+}
